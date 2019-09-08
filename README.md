@@ -14,7 +14,9 @@ Xcode / Android Studios
 ```
 npm install
 ```
+```
 react-native run-ios / react-native run-android
+```
 
 ## Built With
 

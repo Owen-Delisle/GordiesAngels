@@ -6,7 +6,7 @@ Users who find themselves stuck in the snow can post their location on a map and
 ### Prerequisites
 
 ```
-Xcode
+Xcode / Android Studios
 ```
 
 ### Installing

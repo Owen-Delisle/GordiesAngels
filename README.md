@@ -17,8 +17,6 @@ npm install
 ```
 react-native run-ios / react-native run-android
 
-```
-
 ## Built With
 
 * [React Native](https://facebook.github.io/react-native/) - JavaScript framework for natively rendering mobile applications on iOS and Android

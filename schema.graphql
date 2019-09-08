@@ -1,0 +1,57 @@
+type Query {
+  users: [User!]!
+  pullRequests: [PullRequest!]!
+}
+
+type Mutation {
+  createUser(
+    firstname: String!
+    lastname: String!
+    email: String!
+    password: String!
+  ): User
+
+  signup(
+    email: String!
+    firstname: String!
+    lastname: String!
+    password: String!
+  ): AuthPayload
+
+  login(email: String!, password: String!): AuthPayload
+
+  createPullRequest(
+    longitude: Float!
+    latitude: Float!
+    userId: String!
+    bid: Float!
+  ): PullRequest
+
+  deletePullRequest(id: ID!): PullRequest
+}
+
+type Subscription {
+  pullRequestAdded: PullRequest
+  pullRequestDeleted: PullRequest
+}
+
+type AuthPayload {
+  token: String!
+  user: User!
+}
+
+type User {
+  id: ID!
+  email: String
+  firstname: String
+  lastname: String
+  password: String
+}
+
+type PullRequest {
+  id: ID!
+  longitude: Float!
+  latitude: Float!
+  userId: String!
+  bid: Float!
+}

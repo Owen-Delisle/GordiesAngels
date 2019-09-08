@@ -1,0 +1,15 @@
+type User {
+  id: ID! @id
+  email: String @unique
+  firstname: String
+  lastname: String
+  password: String
+}
+
+type PullRequest {
+  id: ID! @id
+  longitude: Float!
+  latitude: Float!
+  userId: String!
+  bid: Float!
+}

@@ -1,0 +1,29 @@
+1. Notifactions are no longer working. They can trigger a console log but wont show up on device.
+
+2. Take out server URL and google maps API Key.
+
+3. Add ui elements to logout page
+
+4. upgrade icon
+
+5. get MongoDB woring on server
+
+6. Add loading gif to confirm pickup modal (IN TESTING)
+
+7. Add bid amount to tow page / add bidding to DigitalOcean (IN TESTING)
+
+8. Add all database calls to api/index.js
+
+9. Animations! :)
+
+10. find out why the map starts over Euroupe
+
+11. Fix styling
+
+12. Animating region back to users location isn't working (IN TESTING)
+
+13. Add failed login rejection alert
+
+14. Fix sideways view
+
+15. Dont let any pickup metrics load on Modal until they ALL have loaded

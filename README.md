@@ -1,7 +1,6 @@
 # GordiesAngels
 
-GordiesAngels is a mobile appliction allowing people to help eachother out of ditches and snowbanks. 
-Users who find themselves stuck in the snow can post their location on a map and "Gordies" will be directed to their location.
+GordiesAngels is a mobile application allowing people to help each other out of ditches and snowbanks. Users who find themselves stuck in the snow can post their location on a map and "Gordie's" will be directed to their location.
 
 ### Prerequisites
 

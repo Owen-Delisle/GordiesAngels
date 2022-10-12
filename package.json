@@ -30,7 +30,7 @@
     "react-addons-update": "^15.6.2",
     "react-apollo": "^2.5.2",
     "react-final-form": "^4.1.0",
-    "react-native": "^0.59.5",
+    "react-native": "^0.59.10",
     "react-native-gesture-handler": "^1.1.0",
     "react-native-google-maps-directions": "^2.0.0",
     "react-native-maps": "^0.24.2",
